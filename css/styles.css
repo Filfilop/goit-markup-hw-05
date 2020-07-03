@@ -172,21 +172,31 @@ ul {
 }
 .mail:hover {
   --color2: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .telephone:hover {
   --color5: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .head-navigation-studio:focus,
 .head-navigation-studio:hover {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .head-nav-portfolion:focus,
 .head-nav-portfolion:hover {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .head-nav-contact:hover,
 .head-nav-contact:focus {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* телефон */
 .telephone {
@@ -220,9 +230,13 @@ ul {
 }
 .telephone:hover {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail:hover {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .image-svg-proger {
@@ -497,11 +511,10 @@ ul {
 .sociaal-icon:hover {
   --color3: #ffffff;
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-four-proger:hover {
-  color: blue;
-}
 /*Постоянные клиенты*/
 
 .post-ckient {
@@ -566,6 +579,8 @@ ul {
 .footer-img-social:hover {
   --color3: #ffffff;
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .image-svg-proger-footer {
@@ -650,8 +665,16 @@ ul {
   color: #ffffff;
 }
 .footer-ckick {
-  background-color: #2196f3;
   color: #ffffff;
+  background-color: #2196f3;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-decoration: none;
+  padding: 10px 28px;
+  border-radius: 6px;
 }
 .footer-input {
   background-color: #2f303a;
@@ -694,9 +717,10 @@ ul {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-meny {
-  transition-duration: 0.5s;
 }
 
 .porfolio-section-meny {
@@ -720,12 +744,12 @@ ul {
 }
 /* основные картинки */
 .porfolio-section-two-ollblock-tehno {
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
-  transition: 300ms ease opacity, 300ms ease transform;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);
+  transition: 300ms ease opacity, ease transform;
 }
 .porfolio-section-two-ollblock-tehno:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
 }
 
 .porfolio-section-two-oll {
@@ -777,6 +801,7 @@ ul {
 }
 
 /* технокряк */
+
 .porfolio-section-two-ollblock-tehno {
   width: 370px;
   height: 404px;
