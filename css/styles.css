@@ -743,13 +743,41 @@ ul {
   visibility: hidden;
 }
 /* основные картинки */
-.porfolio-section-two-ollblock-tehno {
-  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);
-  transition: 300ms ease opacity, ease transform;
+.porfolio-section-two-oll {
+  list-style: none;
+  display: flex;
 }
-.porfolio-section-two-ollblock-tehno:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+.porfolio-section-two-tehno-img {
+  display: block;
+}
+h2,
+p {
+  margin: 0;
+}
+
+.porfolio-section-two-tehno-div {
+  position: relative;
+  overflow: hidden;
+}
+.porfolio-section-two-text-two {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding: 20px 10px;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translateY(100%);
+  transition: transform 1000ms linear;
+}
+.portfolio-section-block-text {
+  border: 1px solid lightgrey;
+  border-top: 0;
+  padding: 10px;
+}
+
+a:focus .porfolio-section-two-text-two,
+a:hover .porfolio-section-two-text-two {
+  transform: translateY(0);
 }
 
 .porfolio-section-two-oll {
@@ -770,15 +798,6 @@ ul {
   text-decoration: none;
 }
 
-.porfolio-section-two-ollblock-tehno:hover::before {
-  content: "";
-  background-color: rgba(33, 150, 243, 0.9);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 370px;
-  height: 294px;
-}
 .porfolio-section-two-title {
   color: #212121;
   font-family: Roboto;
