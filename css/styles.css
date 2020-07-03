@@ -720,8 +720,6 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-meny {
-}
 
 .porfolio-section-meny {
   list-style: none;
@@ -796,6 +794,7 @@ a:hover .porfolio-section-two-text-two {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
+  padding-top: 70px;
 }
 
 .porfolio-section-two-title {
