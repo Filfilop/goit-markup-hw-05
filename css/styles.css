@@ -214,6 +214,7 @@ ul {
   height: 16px;
   left: 1243px;
   top: 32px;
+  margin-top: 3px;
 }
 /* почта */
 .mail {
@@ -540,6 +541,7 @@ ul {
   --color3: #2196f3;
   --color2: #2196f3;
 }
+
 .image-svg-klient {
   width: 40px;
   height: 52px;
